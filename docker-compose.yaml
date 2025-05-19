@@ -6,3 +6,5 @@ services:
       - 'RABBITMQ_DEFAULT_USER=myuser'
     ports:
       - '5672'
+  spring_boot_with_rabbitmq:
+    image: 'spring_boot_with_rabbitmq:latest'
